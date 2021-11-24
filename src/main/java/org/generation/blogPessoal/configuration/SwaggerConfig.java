@@ -38,14 +38,14 @@ public class SwaggerConfig {
 
 	public static ApiInfo metadata() {
 		return new ApiInfoBuilder().title("API - Blog Pessoal").description("Projeto API Spring - Blog Pessoal")
-				.version("1.0.0").license("Apache License Version 2.0").licenseUrl("https://github.com/AldairSoares")
+				.version("1.0.0").license("Apache License Version 2.0").licenseUrl("https://github.com/MariaLuizaDMoura")
 				.contact(contact()).build();
 	}
 
 	private static Contact contact() {
-		return new Contact("Aldair Soares", 
-				"https://github.com/AldairSoares", 
-				"aldair.soares.as@gmail.com");
+		return new Contact("Maria Luiza Moura", 
+				"https://github.com/MariaLuizaDMoura", 
+				"malumoura10@gmail.com");
 	}
 
 	private static List<Response> responseMessage() {

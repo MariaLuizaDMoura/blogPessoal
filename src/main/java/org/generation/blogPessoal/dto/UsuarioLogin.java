@@ -6,7 +6,7 @@ import javax.validation.constraints.Size;
 
 /**
  * 
- * @author aldairsoares
+ * @author marialuizamoura
  * @version 1.0
  *
  */

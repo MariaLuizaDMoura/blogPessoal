@@ -16,21 +16,22 @@ public class UsuarioLogin {
 	
 	private long id;
 	
-	
-	@NotBlank
-	@Size(min =3, max =100, message = "Write at least 8 characters")
+	//@NotBlank
+	//@Size(min =3, max =100, message = "Write at least 8 characters")
 	private String nome;
 	
-	@NotBlank(message = "Insert a valid username")
+	//@NotBlank(message = "Insert a valid username")
 	private String usuario;
 	
 	private String foto;
 	
-	@NotBlank
-	@Size(min =8, max =100, message = "Write at least 8 characters")
+	private String tipo;
+	
+	//@NotBlank
+	//@Size(min =8, max =100, message = "Write at least 8 characters")
 	private String senha;
 	
-	@NotNull
+	//@NotNull
 	private String token;
 	
 	
@@ -81,8 +82,14 @@ public class UsuarioLogin {
 	public void setToken(String token) {
 		this.token = token;
 	}
-	
-	
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
 	
 }
 	
